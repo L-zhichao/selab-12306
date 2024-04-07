@@ -15,26 +15,33 @@
  * limitations under the License.
  */
 
-package tyut.selab.lzc.serialize;
+package tyut.selab.lzc.common.enums;
 
-import cn.hutool.core.thread.ExecutorBuilder;
-import cn.hutool.core.util.DesensitizedUtil;
-import com.fasterxml.jackson.core.JsonGenerator;
-import com.fasterxml.jackson.databind.JsonSerializer;
-import com.fasterxml.jackson.databind.SerializerProvider;
-
-import java.io.IOException;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
 
 /**
- * 身份证号脱敏反序列化
+ * 退款类型枚举
  */
-public class IdCardDesensitizationSerializer extends JsonSerializer<String> {
+@Getter
+@RequiredArgsConstructor
+public enum RefundTypeEnum {
 
-    @Override
-    public void serialize(String idCard, JsonGenerator jsonGenerator, SerializerProvider serializerProvider) throws IOException {
-        String idCardDesensitization = DesensitizedUtil.idCardNum(idCard, 4, 4);
-        jsonGenerator.writeString(idCardDesensitization);
-    }
+    /**
+     * 部分退款
+     */
+    PARTIAL_REFUND(11, 0, "PARTIAL_REFUND", "部分退款"),
+
+    /**
+     * 全部退款
+     */
+    FULL_REFUND(12, 1, "FULL_REFUND", "全部退款");
+
+    private final Integer code;
+
+    private final Integer type;
+
+    private final String name;
+
+    private final String value;
 }

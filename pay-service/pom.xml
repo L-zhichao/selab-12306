@@ -8,10 +8,10 @@
     </parent>
 
     <groupId>com.powernode</groupId>
-    <artifactId>tests</artifactId>
+    <artifactId>pay-service</artifactId>
     <packaging>jar</packaging>
 
-    <name>tests</name>
+    <name>pay-service</name>
     <url>http://maven.apache.org</url>
 
     <properties>

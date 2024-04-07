@@ -15,26 +15,26 @@
  * limitations under the License.
  */
 
-package tyut.selab.lzc.serialize;
-
-import cn.hutool.core.thread.ExecutorBuilder;
-import cn.hutool.core.util.DesensitizedUtil;
-import com.fasterxml.jackson.core.JsonGenerator;
-import com.fasterxml.jackson.databind.JsonSerializer;
-import com.fasterxml.jackson.databind.SerializerProvider;
-
-import java.io.IOException;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+package tyut.selab.lzc.core;
 
 /**
- * 身份证号脱敏反序列化
+ * ID 生成器
+ *
+ * @公众号：马丁玩编程，回复：加群，添加马哥微信（备注：12306）获取项目资料
  */
-public class IdCardDesensitizationSerializer extends JsonSerializer<String> {
+public interface IdGenerator {
 
-    @Override
-    public void serialize(String idCard, JsonGenerator jsonGenerator, SerializerProvider serializerProvider) throws IOException {
-        String idCardDesensitization = DesensitizedUtil.idCardNum(idCard, 4, 4);
-        jsonGenerator.writeString(idCardDesensitization);
+    /**
+     * 下一个 ID
+     */
+    default long nextId() {
+        return 0L;
+    }
+
+    /**
+     * 下一个 ID 字符串
+     */
+    default String nextIdStr() {
+        return "";
     }
 }

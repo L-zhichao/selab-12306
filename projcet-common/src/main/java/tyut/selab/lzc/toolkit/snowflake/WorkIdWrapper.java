@@ -15,26 +15,29 @@
  * limitations under the License.
  */
 
-package tyut.selab.lzc.serialize;
+package tyut.selab.lzc.toolkit.snowflake;
 
-import cn.hutool.core.thread.ExecutorBuilder;
-import cn.hutool.core.util.DesensitizedUtil;
-import com.fasterxml.jackson.core.JsonGenerator;
-import com.fasterxml.jackson.databind.JsonSerializer;
-import com.fasterxml.jackson.databind.SerializerProvider;
-
-import java.io.IOException;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
- * 身份证号脱敏反序列化
+ * WorkId 包装器
+ *
+ * @公众号：马丁玩编程，回复：加群，添加马哥微信（备注：12306）获取项目资料
  */
-public class IdCardDesensitizationSerializer extends JsonSerializer<String> {
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class WorkIdWrapper {
 
-    @Override
-    public void serialize(String idCard, JsonGenerator jsonGenerator, SerializerProvider serializerProvider) throws IOException {
-        String idCardDesensitization = DesensitizedUtil.idCardNum(idCard, 4, 4);
-        jsonGenerator.writeString(idCardDesensitization);
-    }
+    /**
+     * 工作ID
+     */
+    private Long workId;
+
+    /**
+     * 数据中心ID
+     */
+    private Long dataCenterId;
 }

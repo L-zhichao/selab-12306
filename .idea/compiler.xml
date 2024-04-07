@@ -6,14 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="project-common" />
-        <module name="gateway-service" />
         <module name="tests" />
+        <module name="pay-service" />
+        <module name="projcet-common" />
+        <module name="gateway-service" />
+        <module name="order-service" />
+        <module name="user-service" />
+        <module name="ticket-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dependencies" target="17" />
       <module name="index12306-all" target="17" />
+      <module name="project-common" target="17" />
       <module name="test" target="17" />
     </bytecodeTargetLevel>
   </component>

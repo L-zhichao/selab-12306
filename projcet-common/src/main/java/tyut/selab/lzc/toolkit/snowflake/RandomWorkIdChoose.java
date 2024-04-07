@@ -15,26 +15,32 @@
  * limitations under the License.
  */
 
-package tyut.selab.lzc.serialize;
+package tyut.selab.lzc.toolkit.snowflake;
 
-import cn.hutool.core.thread.ExecutorBuilder;
-import cn.hutool.core.util.DesensitizedUtil;
-import com.fasterxml.jackson.core.JsonGenerator;
-import com.fasterxml.jackson.databind.JsonSerializer;
-import com.fasterxml.jackson.databind.SerializerProvider;
-
-import java.io.IOException;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.InitializingBean;
 
 /**
- * 身份证号脱敏反序列化
+ * 使用随机数获取雪花 WorkId
+ *
+ * @公众号：马丁玩编程，回复：加群，添加马哥微信（备注：12306）获取项目资料
  */
-public class IdCardDesensitizationSerializer extends JsonSerializer<String> {
+@Slf4j
+public class RandomWorkIdChoose extends AbstractWorkIdChooseTemplate implements InitializingBean {
 
     @Override
-    public void serialize(String idCard, JsonGenerator jsonGenerator, SerializerProvider serializerProvider) throws IOException {
-        String idCardDesensitization = DesensitizedUtil.idCardNum(idCard, 4, 4);
-        jsonGenerator.writeString(idCardDesensitization);
+    protected WorkIdWrapper chooseWorkId() {
+        int start = 0, end = 31;
+        return new WorkIdWrapper(getRandom(start, end), getRandom(start, end));
+    }
+
+    @Override
+    public void afterPropertiesSet() throws Exception {
+        chooseAndInit();
+    }
+
+    private static long getRandom(int start, int end) {
+        long random = (long) (Math.random() * (end - start + 1) + start);
+        return random;
     }
 }
