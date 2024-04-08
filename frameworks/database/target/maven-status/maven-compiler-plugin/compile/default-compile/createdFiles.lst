@@ -1,0 +1,6 @@
+org\opengoofy\index12306\framework\starter\database\algorithm\sharding\CustomDbHashModShardingAlgorithm.class
+org\opengoofy\index12306\framework\starter\database\base\BaseDO.class
+org\opengoofy\index12306\framework\starter\database\handler\CustomIdGenerator.class
+org\opengoofy\index12306\framework\starter\database\handler\MyMetaObjectHandler.class
+org\opengoofy\index12306\framework\starter\database\config\MybatisPlusAutoConfiguration.class
+org\opengoofy\index12306\framework\starter\database\toolkit\PageUtil.class

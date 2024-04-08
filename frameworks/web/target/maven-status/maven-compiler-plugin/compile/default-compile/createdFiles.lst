@@ -1,0 +1,5 @@
+org\opengoofy\index12306\framework\starter\web\initialize\InitializeDispatcherServletHandler.class
+org\opengoofy\index12306\framework\starter\web\GlobalExceptionHandler.class
+org\opengoofy\index12306\framework\starter\web\initialize\InitializeDispatcherServletController.class
+org\opengoofy\index12306\framework\starter\web\Results.class
+org\opengoofy\index12306\framework\starter\web\config\WebAutoConfiguration.class

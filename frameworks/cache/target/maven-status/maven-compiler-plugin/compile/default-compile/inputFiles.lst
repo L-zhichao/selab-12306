@@ -1,0 +1,13 @@
+C:\Users\26580\Desktop\java_work\12306\frameworks\cache\src\main\java\org\opengoofy\index12306\framework\starter\cache\config\CacheAutoConfiguration.java
+C:\Users\26580\Desktop\java_work\12306\frameworks\cache\src\main\java\org\opengoofy\index12306\framework\starter\cache\core\CacheGetFilter.java
+C:\Users\26580\Desktop\java_work\12306\frameworks\cache\src\main\java\org\opengoofy\index12306\framework\starter\cache\MultistageCache.java
+C:\Users\26580\Desktop\java_work\12306\frameworks\cache\src\main\java\org\opengoofy\index12306\framework\starter\cache\RedisKeySerializer.java
+C:\Users\26580\Desktop\java_work\12306\frameworks\cache\src\main\java\org\opengoofy\index12306\framework\starter\cache\toolkit\FastJson2Util.java
+C:\Users\26580\Desktop\java_work\12306\frameworks\cache\src\main\java\org\opengoofy\index12306\framework\starter\cache\config\RedisDistributedProperties.java
+C:\Users\26580\Desktop\java_work\12306\frameworks\cache\src\main\java\org\opengoofy\index12306\framework\starter\cache\StringRedisTemplateProxy.java
+C:\Users\26580\Desktop\java_work\12306\frameworks\cache\src\main\java\org\opengoofy\index12306\framework\starter\cache\toolkit\CacheUtil.java
+C:\Users\26580\Desktop\java_work\12306\frameworks\cache\src\main\java\org\opengoofy\index12306\framework\starter\cache\Cache.java
+C:\Users\26580\Desktop\java_work\12306\frameworks\cache\src\main\java\org\opengoofy\index12306\framework\starter\cache\core\CacheGetIfAbsent.java
+C:\Users\26580\Desktop\java_work\12306\frameworks\cache\src\main\java\org\opengoofy\index12306\framework\starter\cache\core\CacheLoader.java
+C:\Users\26580\Desktop\java_work\12306\frameworks\cache\src\main\java\org\opengoofy\index12306\framework\starter\cache\DistributedCache.java
+C:\Users\26580\Desktop\java_work\12306\frameworks\cache\src\main\java\org\opengoofy\index12306\framework\starter\cache\config\BloomFilterPenetrateProperties.java

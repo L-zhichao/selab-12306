@@ -1,0 +1,6 @@
+org\opengoofy\index12306\framework\starter\designpattern\strategy\AbstractStrategyChoose.class
+org\opengoofy\index12306\framework\starter\designpattern\chain\AbstractChainHandler.class
+org\opengoofy\index12306\framework\starter\designpattern\config\DesignPatternAutoConfiguration.class
+org\opengoofy\index12306\framework\starter\designpattern\chain\AbstractChainContext.class
+org\opengoofy\index12306\framework\starter\designpattern\strategy\AbstractExecuteStrategy.class
+org\opengoofy\index12306\framework\starter\designpattern\builder\Builder.class

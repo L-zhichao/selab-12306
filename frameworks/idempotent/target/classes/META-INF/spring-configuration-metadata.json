@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "name": "congomall.idempotent.token",
+      "type": "org.opengoofy.index12306.framework.starter.idempotent.config.IdempotentProperties",
+      "sourceType": "org.opengoofy.index12306.framework.starter.idempotent.config.IdempotentProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "congomall.idempotent.token.prefix",
+      "type": "java.lang.String",
+      "description": "Token 骞傜瓑 Key 鍓嶇紑",
+      "sourceType": "org.opengoofy.index12306.framework.starter.idempotent.config.IdempotentProperties"
+    },
+    {
+      "name": "congomall.idempotent.token.timeout",
+      "type": "java.lang.Long",
+      "description": "Token 鐢宠鍚庤繃鏈熸椂闂� 鍗曚綅榛樿姣 {@link TimeUnit#MILLISECONDS} 闅忕潃鍒嗗竷寮忕紦瀛樿繃鏈熸椂闂村崟浣� {@link RedisDistributedProperties#valueTimeUnit} 鑰屽彉鍖�",
+      "sourceType": "org.opengoofy.index12306.framework.starter.idempotent.config.IdempotentProperties"
+    }
+  ],
+  "hints": []
+}

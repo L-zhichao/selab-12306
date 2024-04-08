@@ -1,0 +1,12 @@
+C:\Users\26580\Desktop\java_work\12306\frameworks\distributedid\src\main\java\org\opengoofy\index12306\framework\starter\distributedid\core\snowflake\RandomWorkIdChoose.java
+C:\Users\26580\Desktop\java_work\12306\frameworks\distributedid\src\main\java\org\opengoofy\index12306\framework\starter\distributedid\core\snowflake\Snowflake.java
+C:\Users\26580\Desktop\java_work\12306\frameworks\distributedid\src\main\java\org\opengoofy\index12306\framework\starter\distributedid\core\snowflake\WorkIdWrapper.java
+C:\Users\26580\Desktop\java_work\12306\frameworks\distributedid\src\main\java\org\opengoofy\index12306\framework\starter\distributedid\core\snowflake\SnowflakeIdInfo.java
+C:\Users\26580\Desktop\java_work\12306\frameworks\distributedid\src\main\java\org\opengoofy\index12306\framework\starter\distributedid\core\snowflake\LocalRedisWorkIdChoose.java
+C:\Users\26580\Desktop\java_work\12306\frameworks\distributedid\src\main\java\org\opengoofy\index12306\framework\starter\distributedid\config\DistributedIdAutoConfiguration.java
+C:\Users\26580\Desktop\java_work\12306\frameworks\distributedid\src\main\java\org\opengoofy\index12306\framework\starter\distributedid\core\serviceid\DefaultServiceIdGenerator.java
+C:\Users\26580\Desktop\java_work\12306\frameworks\distributedid\src\main\java\org\opengoofy\index12306\framework\starter\distributedid\core\serviceid\ServiceIdGenerator.java
+C:\Users\26580\Desktop\java_work\12306\frameworks\distributedid\src\main\java\org\opengoofy\index12306\framework\starter\distributedid\handler\IdGeneratorManager.java
+C:\Users\26580\Desktop\java_work\12306\frameworks\distributedid\src\main\java\org\opengoofy\index12306\framework\starter\distributedid\core\IdGenerator.java
+C:\Users\26580\Desktop\java_work\12306\frameworks\distributedid\src\main\java\org\opengoofy\index12306\framework\starter\distributedid\core\snowflake\AbstractWorkIdChooseTemplate.java
+C:\Users\26580\Desktop\java_work\12306\frameworks\distributedid\src\main\java\org\opengoofy\index12306\framework\starter\distributedid\toolkit\SnowflakeIdUtil.java

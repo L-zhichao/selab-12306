@@ -1,0 +1,65 @@
+{
+  "groups": [
+    {
+      "name": "framework.cache.redis",
+      "type": "org.opengoofy.index12306.framework.starter.cache.config.RedisDistributedProperties",
+      "sourceType": "org.opengoofy.index12306.framework.starter.cache.config.RedisDistributedProperties"
+    },
+    {
+      "name": "framework.cache.redis.bloom-filter.default",
+      "type": "org.opengoofy.index12306.framework.starter.cache.config.BloomFilterPenetrateProperties",
+      "sourceType": "org.opengoofy.index12306.framework.starter.cache.config.BloomFilterPenetrateProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "framework.cache.redis.bloom-filter.default.expected-insertions",
+      "type": "java.lang.Long",
+      "description": "姣忎釜鍏冪礌鐨勯鏈熸彃鍏ラ噺",
+      "sourceType": "org.opengoofy.index12306.framework.starter.cache.config.BloomFilterPenetrateProperties",
+      "defaultValue": 64
+    },
+    {
+      "name": "framework.cache.redis.bloom-filter.default.false-probability",
+      "type": "java.lang.Double",
+      "description": "棰勬湡閿欒姒傜巼",
+      "sourceType": "org.opengoofy.index12306.framework.starter.cache.config.BloomFilterPenetrateProperties",
+      "defaultValue": 0.03
+    },
+    {
+      "name": "framework.cache.redis.bloom-filter.default.name",
+      "type": "java.lang.String",
+      "description": "甯冮殕杩囨护鍣ㄩ粯璁ゅ疄渚嬪悕绉�",
+      "sourceType": "org.opengoofy.index12306.framework.starter.cache.config.BloomFilterPenetrateProperties",
+      "defaultValue": "cache_penetration_bloom_filter"
+    },
+    {
+      "name": "framework.cache.redis.prefix",
+      "type": "java.lang.String",
+      "description": "Key 鍓嶇紑",
+      "sourceType": "org.opengoofy.index12306.framework.starter.cache.config.RedisDistributedProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "framework.cache.redis.prefix-charset",
+      "type": "java.lang.String",
+      "description": "Key 鍓嶇紑瀛楃闆�",
+      "sourceType": "org.opengoofy.index12306.framework.starter.cache.config.RedisDistributedProperties",
+      "defaultValue": "UTF-8"
+    },
+    {
+      "name": "framework.cache.redis.value-time-unit",
+      "type": "java.util.concurrent.TimeUnit",
+      "description": "鏃堕棿鍗曚綅",
+      "sourceType": "org.opengoofy.index12306.framework.starter.cache.config.RedisDistributedProperties"
+    },
+    {
+      "name": "framework.cache.redis.value-timeout",
+      "type": "java.lang.Long",
+      "description": "榛樿瓒呮椂鏃堕棿",
+      "sourceType": "org.opengoofy.index12306.framework.starter.cache.config.RedisDistributedProperties",
+      "defaultValue": 30000
+    }
+  ],
+  "hints": []
+}

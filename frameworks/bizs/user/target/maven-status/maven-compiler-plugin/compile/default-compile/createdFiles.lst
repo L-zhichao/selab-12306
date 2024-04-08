@@ -1,0 +1,6 @@
+org\opengoofy\index12306\frameworks\starter\user\config\UserAutoConfiguration.class
+org\opengoofy\index12306\frameworks\starter\user\core\UserInfoDTO.class
+org\opengoofy\index12306\frameworks\starter\user\toolkit\JWTUtil.class
+org\opengoofy\index12306\frameworks\starter\user\core\UserInfoDTO$UserInfoDTOBuilder.class
+org\opengoofy\index12306\frameworks\starter\user\core\UserContext.class
+org\opengoofy\index12306\frameworks\starter\user\core\UserTransmitFilter.class
